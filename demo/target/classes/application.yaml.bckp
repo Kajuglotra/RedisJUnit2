@@ -1,0 +1,21 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+      url: jdbc:mysql://localhost:3306/redisDemo?createDatabaseIfNotExist=true
+      username: root
+      password: rootroot
+redis:
+  datasource:
+    host: redis-13017.c14.us-east-1-3.ec2.cloud.redislabs.com
+    port: 13017
+    password: qj6PLfBvcnGHGRNpecybGp8q86TOCYrc
+logging:
+  level:
+    org:
+     springframework.security:debug
+
+#yaml and yml
+#html and htm
+#jpeg and jpg
